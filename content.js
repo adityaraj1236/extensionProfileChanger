@@ -12,7 +12,7 @@ function changeProfilePictures() {
 // Run the function initially
 changeProfilePictures();
 
-// Observe the feed for changes and apply the profile picture change when new posts are loaded
+
 const observer = new MutationObserver((mutations) => {
   mutations.forEach(() => {
     changeProfilePictures();
